@@ -1,3 +1,4 @@
+//Es una prueba de Jaime Avila
 import java.awt.Component;
 
 import javax.swing.BoxLayout;
@@ -13,12 +14,12 @@ public class PruebaBoxLayout {
 		JFrame v = new JFrame();
 		v.getContentPane().setLayout(new BoxLayout(v.getContentPane(),BoxLayout.Y_AXIS));
 		
-		// Se crea un botón centrado y se añade
+		// Se crea un botï¿½n centrado y se aï¿½ade
 		JButton boton = new JButton("B");
 		boton.setAlignmentX(Component.CENTER_ALIGNMENT);
 		v.getContentPane().add(boton);
 		
-		// Se crea una etiqueta centrada y se añade
+		// Se crea una etiqueta centrada y se aï¿½ade
 		JLabel etiqueta = new JLabel("una etiqueta larga");
 		etiqueta.setAlignmentX(Component.CENTER_ALIGNMENT);
 		v.getContentPane().add(etiqueta);
