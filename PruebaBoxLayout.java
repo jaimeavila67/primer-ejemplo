@@ -1,6 +1,6 @@
 //Es una prueba de Jaime Avila
 import java.awt.Component;
-
+//SEGUNDO COMENTARIO DE PRUEBA
 import javax.swing.BoxLayout;
 import javax.swing.JButton;
 import javax.swing.JFrame;
